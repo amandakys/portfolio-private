@@ -145,6 +145,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    padding: 3vw;
+    margin: -3vw;
+    background-color: #f8f8f8;
 }
 
 .site-head-left {
@@ -186,7 +191,7 @@ body {
 }
 
 .site-head-center {
-    position: absolute;
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;

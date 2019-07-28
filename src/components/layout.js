@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+
+
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -24,7 +26,7 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" class="site-head-left">
+          <nav id="swup" className="site-head-left">
             <ul className="nav" role="menu">
               <li className="nav-home nav-current" role="menuitem">
                 <Link to={`/`}>Home</Link>
@@ -45,29 +47,29 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <a
-                href="https://www.facebook.com"
-                title="Facebook"
+                href="https://github.com/amandakys"
+                title="Github"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Github
               </a>
               <a
-                href="https://twitter.com"
-                title="Twitter"
+                href="https://uk.linkedin.com/in/amanda-koh-14ab42103"
+                title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                LinkedIn
               </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
+              <a
+                href="https://instagram.com/ataraxdesign"
+                title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                RSS
-              </Link>
+                Instagram
+              </a>
             </div>
           </div>
         </div>
@@ -78,15 +80,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
-        </a>
+        &copy; {new Date().getFullYear()} Amanda Koh
       </footer>
     </div>
   )
