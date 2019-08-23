@@ -39,13 +39,13 @@ The emblem builder in Halo and Guild Wars is a good example of this.
 
 ![emblem-editor-1.jpg](./emblem-editor-1.jpg)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Halo Emblem Generator</P>
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Players choose a foreground and background shape then colour each one separately from a different screen.</p>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Halo Emblem Generator</P>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Players choose a foreground and background shape then colour each one separately from a different screen.</p>
 
 ![emblem-editor-2.jpg](./emblem-editor-2.jpg)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Guild Wars Emblem Generator</P>
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Supports two colours on foreground shapes allowing players to choose a primary and secondary colour, bringing greater colour variety.</p>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Guild Wars Emblem Generator</P>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Supports two colours on foreground shapes allowing players to choose a primary and secondary colour, bringing greater colour variety.</p>
 
 #### LAYERED SHAPES APPROACH
 
@@ -55,8 +55,8 @@ The emblem builder in Battlefield 4 used this approach.
 
 ![emblem-editor-3.jpg](./emblem-editor-3.jpg)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Battlefield 4 Emblem Generator</p>
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Allows users to layer shapes on top of each other and colour them individually. The shapes have a varying levels of complexity but can be composed together to make a huge variety of designs.</p>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Battlefield 4 Emblem Generator</p>
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Allows users to layer shapes on top of each other and colour them individually. The shapes have a varying levels of complexity but can be composed together to make a huge variety of designs.</p>
 
 <a name="structure" style="display: block; position: relative; top: -6vw"></a>
 
@@ -97,7 +97,7 @@ The use of a slider in the colour and transform menus were used to provide a mor
 
 ![screens.gif](./screens.gif)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
+<p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
 
 #### VERSION 2
 
@@ -109,7 +109,7 @@ For example, in this version users the menu options refer only to one layer at a
 
 ![screens-2.gif](./screens-2.gif)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Animated slideshow of the screens designed for Version 2. Exported from Adobe XD.</p>
+<p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 2. Exported from Adobe XD.</p>
 
 #### VERSION 3
 
@@ -124,7 +124,7 @@ A key change in Version 3 was the redesign of the layer display system. Previous
 
 ![screens-3.gif](./screens-3.gif)
 
-<p align="center" style="font-size: 0.8em; position: relative; top: -2.5em;">Animated slideshow of the screens designed for Version 3. Exported from Adobe XD.</p>
+<p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 3. Exported from Adobe XD.</p>
 
 #### VERSION 4
 

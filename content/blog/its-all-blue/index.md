@@ -75,3 +75,43 @@ I soon realised that the fundamental structure of the “Influencer” and “Pr
 #### ONBOARDING
 
 ![onboarding.png](./onboarding.png)
+
+#### INFLUENCER FLOW
+
+![influencer-flow.png](./influencer-flow.png)
+
+#### PROMOTER FLOW
+
+![promoter-flow.png](./promoter-flow.png)
+
+## KEY DECISION DECISIONS
+
+#### SPLIT APP
+
+Early on in the design process, it was clear we had two distinct user groups who had different motivations for using our app. In our goal to be the bridge for communication between the groups, we chose to completely separate their user experiences. It would allow us to cater each experience more specifically to each user group and better respond to feedback from both groups.
+
+The alternative was to create a unified interface that catered to both groups. In putting together initial sketches of what this would look like, it became clear that especially on a mobile interface where screen real estate was scarce, it was important to make screen content context based. This meant understanding what the user was there for and only providing the necessary information.
+
+Ultimately, I successfully pitched a split app layout despite some initial reluctance from my team members. Our app could be interpreted as two separate apps that shared information, but I used similarities in their workflow structure and consistent design elements to tie them together into a unified visual design.
+
+The colour coding and ‘mirrored’ design was the result of these investigations and a conscious effort to address a potential edge case where a user was both an influencer and a promoter (i.e. they had launched a personal brand). The split app structure reflected this dual identity and allowed these users to keep there respective business goals clear and separate.
+
+<div style="display:flex;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="./manage-offers.png" style="width:100%">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="./manage-bids-business.png" style="width:100%">
+  </div>
+</div>
+
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
+
+<div style="display:flex;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="./view-offer.png" style="width:100%">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="./view-bid.png" style="width:100%">
+  </div>
+</div>
