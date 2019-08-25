@@ -96,7 +96,7 @@ Ultimately, I successfully pitched a split app layout despite some initial reluc
 
 The colour coding and ‘mirrored’ design was the result of these investigations and a conscious effort to address a potential edge case where a user was both an influencer and a promoter (i.e. they had launched a personal brand). The split app structure reflected this dual identity and allowed these users to keep there respective business goals clear and separate.
 
-<div style="display:flex;">
+<div style="display: flex;">
   <div style="flex: 50%; padding: 5px;">
     <img src="./manage-offers.png" style="width:100%">
   </div>
@@ -107,7 +107,7 @@ The colour coding and ‘mirrored’ design was the result of these investigatio
 
 <p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
 
-<div style="display:flex;">
+<div style="display: flex;">
   <div style="flex: 50%; padding: 5px;">
     <img src="./view-offer.png" style="width:100%">
   </div>
@@ -115,3 +115,5 @@ The colour coding and ‘mirrored’ design was the result of these investigatio
     <img src="./view-bid.png" style="width:100%">
   </div>
 </div>
+
+<p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>

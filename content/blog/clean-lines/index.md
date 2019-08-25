@@ -1,13 +1,13 @@
 ---
-title: Clean lines
+title: Edinburgh Fringe
 date: "2019-05-05"
 thumbnail: ./matthew-hamilton-351641-unsplash.jpg
-description: Let your hair down and paint the town red
+description: I wrote, directed and produced a show performed at the Edinburgh Fringe Festival 2018. This is 'The Interview'.
 ---
 
-![Clean lines](./clem-onojeghuo-207792-unsplash.jpg)
+![Clean lines](./fringe-headshots.png)
 
-![Clean lines](./mitch-lensink-588486-unsplash.jpg)
+![Clean lines](./poster.jpg)
 
 ![Clean lines](./ricardo-gomez-angel-180819-unsplash.jpg)
 

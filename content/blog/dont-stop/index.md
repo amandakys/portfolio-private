@@ -73,9 +73,23 @@ Before starting to prototype the interface, I had to pitch the emblem creation p
 
 <a name="prototypes" style="display: block; position: relative; top: -6vw"></a>
 
+## THE SOLUTION
+
+<iframe src="https://marvelapp.com/a26j1ie?emb=1&iosapp=false&frameless=false" width="948" height="676" allowTransparency="true" frameborder="0"></iframe>
+
+<p align="center" style="font-size: 0.8em; position: relative;">Interactive prototype of final emblem builder design</p>
+
+One of the key frictions in previous iterations was the display of the layers. I couldn’t decide whether the top most layer should be shown on the right or left, and similarly which side the “Add New Layer” should be on. Interviewing several of my team for input led to a huge variety of views on what set up would ‘make sense’. **I realised that if what was right wasn’t clear, perhaps of whole approach was fundamentally counter-intuitive.**
+
+This version was designed with a **vertical layer stack** in mind. This way there would be no dispute as to which was the top layer. It is also the version which I feel truly shed the influence of the console/PC versions I had initially used as inspiration. I also **maximised the canvas area** in line with the decision in Version 3 to **fully commit to touch gestures** as the main method of interacting with shapes. This was instead of the ‘full screen mode’ I had previously incorporated to give users a screen with a larger canvas.
+
+The reduced area available for the menu due to the larger canvas increased my reliance on **context based menus**. With just a one column menu to work with, I had to break down my workflow into even smaller steps. The main challenge with this was how to go backwards. In an ideal situation, users would progress linearly forwards, but in the use case where users needed to return to a previous menu, I decided to have the ‘back’ button go back one step at a time. While this could be tedious for big changes, for the general use case it was largely sufficient in a context based menu system. Instead of having a dedicated back button, the title of the current menu served to return users to the previous menu. This was in line with an existing convention in the game and saved screen space.
+
+_Note: The back behaviour was hard to incorporate into a manual prototype due to the need build an excessive number of screens to accommodate all the changes to the canvas. To see it in action I would recommend trying it in the first few screens of the prototype above._
+
 ## THE PROTOTYPES
 
-My design for the interface went through four iterations before reaching a layout and workflow that was I was happy with. The main challenge was making the design simple enough to be used on a small mobile screen while still providing access to a certain level of control. Each iteration was evaluated by other members of the UX/UI team and I continued to iterate until I stopped getting “make it simpler” as feedback.
+My design for the interface went through three iterations before reaching a layout and workflow that was I was happy with. The main challenge was making the design simple enough to be used on a small mobile screen while still providing access to a certain level of control. Each iteration was evaluated by other members of the UX/UI team and I continued to iterate until I stopped getting “make it simpler” as feedback.
 
 #### VERSION 1
 
@@ -125,15 +139,3 @@ A key change in Version 3 was the redesign of the layer display system. Previous
 ![screens-3.gif](./screens-3.gif)
 
 <p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 3. Exported from Adobe XD.</p>
-
-#### VERSION 4
-
-One of the key frictions in Version 3 was the display of the layers. I couldn’t decide whether the top most layer should be shown on the right or left, and similarly which side the “Add New Layer” should be on. Interviewing several of my team for input led to a huge variety of views on what set up would ‘make sense’. **I realised that if what was right wasn’t clear, perhaps of whole approach was fundamentally counter-intuitive.**
-
-Version 4 was designed with a **vertical layer stack** in mind. This way there would be no dispute as to which was the top layer. It is also the version which I feel truly shed the influence of the console/PC versions I had initially used as inspiration. I also **maximised the canvas area** in line with the decision in Version 3 to **fully commit to touch gestures** as the main method of interacting with shapes. This was instead of the ‘full screen mode’ I had previously incorporated to give users a screen with a larger canvas.
-
-The reduced area available for the menu due to the larger canvas increased my reliance on **context based menus**. With just a one column menu to work with, I had to break down my workflow into even smaller steps. The main challenge with this was how to go backwards. In an ideal situation, users would progress linearly forwards, but in the use case where users needed to return to a previous menu, I decided to have the ‘back’ button go back one step at a time. While this could be tedious for big changes, for the general use case it was largely sufficient in a context based menu system. Instead of having a dedicated back button, the title of the current menu served to return users to the previous menu. This was in line with an existing convention in the game and saved screen space.
-
-_Note: This back behaviour was hard to incorporate into a manual prototype due to the need build an excessive number of screens to accommodate all the changes to the canvas. To see it in action I would recommend trying it in the first few screens of the prototype below._
-
-<iframe src="https://marvelapp.com/a26j1ie?emb=1&iosapp=false&frameless=false" width="948" height="676" allowTransparency="true" frameborder="0"></iframe>
