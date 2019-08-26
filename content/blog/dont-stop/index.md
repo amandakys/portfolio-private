@@ -109,7 +109,9 @@ Drop down menus were used to facilitate the bundle system where shapes came in b
 
 The use of a slider in the colour and transform menus were used to provide a more touch based interface instead of requiring text input. For colour the slider adjusted the lightness/darkness of the chosen colour swatch. For transform, the slider would adjust numerical values depending on the chosen transform i.e. for Horizontal transform, the slider would move the shape from left to right.
 
-![screens.gif](./screens.gif)
+<p>
+  <img src="./screens.gif" alt="./screens.gif" style="width: 100%"/>
+</p>
 
 <p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
 
@@ -121,7 +123,9 @@ Moving away from the accordion menu style to a more context based menu, users ar
 
 For example, in this version users the menu options refer only to one layer at a time, and the layer is chosen at the beginning of the workflow. The menus then displayed refer only to the shape on that layer. To change layer the user must navigate back to the start menu. I essentially designed a **core loop of interaction** to be repeated until the user completes their design.
 
-![screens-2.gif](./screens-2.gif)
+<p>
+  <img src="./screens-2.gif" alt="./screens-2.gif" style="width: 100%"/>
+</p>
 
 <p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 2. Exported from Adobe XD.</p>
 
@@ -136,6 +140,8 @@ While Version 2 represented a significant simplification of Version 1, the gener
 
 A key change in Version 3 was the redesign of the layer display system. Previously, the different layers could only be viewed from the initial menu and not in the later context based menus. However, the layers themselves were not directly related to the provided contexts i.e. whether the user was adding a shape or text. Therefore, I endeavoured to **make it possible to view all the layers in the emblem at all times**. By putting the layers on screen at all times, it allowed users to easily switch between which shape/text layer they were modifying and make quick changes to a shapes they had added before.
 
-![screens-3.gif](./screens-3.gif)
+<p>
+  <img src="./screens-3.gif" alt="./screens-3.gif" style="width: 100%"/>
+</p>
 
 <p align="center" style="font-size: 0.8em; position: relative;">Animated slideshow of the screens designed for Version 3. Exported from Adobe XD.</p>

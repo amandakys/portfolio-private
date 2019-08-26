@@ -1,8 +1,8 @@
 ---
 title: Edinburgh Fringe
 date: "2019-05-05"
-thumbnail: ./matthew-hamilton-351641-unsplash.jpg
-description: I wrote, directed and produced a show performed at the Edinburgh Fringe Festival 2018. This is 'The Interview'.
+thumbnail: ./groupshot.jpg
+description: I wrote, directed and produced the show 'The Interview' performed at the Edinburgh Fringe Festival 2018.
 ---
 
 ![Clean lines](./fringe-headshots.png)
