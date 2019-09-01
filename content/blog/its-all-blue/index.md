@@ -41,26 +41,9 @@ To provide a simple, streamlined experience for:
 
 ## THE PERSONAS
 
-<p>
-  <a class="gatsby-resp-image-link" href="/static/6e72793e59818a9167aee13884f7aa5b/7d71f/ashley.png" style="display: block" target="_blank" rel="noopener">
-  <span class="gatsby-resp-image-wrapper" style="position: relative; display: block; margin: 7vw 0; max-width: 200px; margin-left: auto; margin-right: auto;">
-    <span class="gatsby-resp-image-background-image" style="padding-bottom: 100%; position: relative; bottom: 0; left: 0;border-radius: 50%; background-size: cover; display: block;">
-      <picture>
-        <source srcset="/static/6e72793e59818a9167aee13884f7aa5b/91344/ashley.webp 200w" sizes="(max-width: 200px) 100vw, 200px" type="image/webp">
-        <source srcset="/static/6e72793e59818a9167aee13884f7aa5b/7d71f/ashley.png 200w" sizes="(max-width: 200px) 100vw, 200px" type="image/png">
-        <img class="gatsby-resp-image-image" style="width: 100%;height: 100%;margin: 0;vertical-align: middle;position: absolute;top: 0;left: 0;border-radius: 50%;background: transparent;box-shadow: transparent;" src="/static/6e72793e59818a9167aee13884f7aa5b/7d71f/ashley.png" alt="ashley.png" title="">
-      </picture>
-      </span>
-  </span>
-  
-  </a>
-</p>
-
 <center><h3>Ashley</h3></center>
 
 Ashley is a fashion blogger with 10,000 followers. She’s been contacted by companies in the past asking if she’d be interested in being paid to wear their clothes in her posts. With the number of requests increasing and coming from a variety of sources, she wants to be able to manage them efficiently, cultivate more partnerships and track her growth and earnings.
-
-![terry.png](./terry.png)
 
 <center><h3>Terry</h3></center>
 

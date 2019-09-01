@@ -1,14 +1,16 @@
 ---
-title: All spikes
+title: DramSoc Publicity
 date: "2019-05-04"
-thumbnail: ./charles-deluvio-695732-unsplash.jpg
-description: A cactus doesn't live in the desert because it likes the desert; it lives there because the desert hasn't killed it yet.
+thumbnail: ./maskerade-flyer.jpg
+description: A showcase of the work I produced in my role as Publicity Officer for Imperial College Dramatic Society as part of the committee 2017-2018.
 ---
 
-![Cactus](./charles-deluvio-695757-unsplash.jpg)
+![Cactus](./maskerade-poster.jpg)
 
-![Cactus](./charles-deluvio-695736-unsplash.jpg)
+![Cactus](./NoExit.jpg)
 
-![Cactus](./charles-deluvio-695758-unsplash.jpg)
+![Cactus](./NoExitWall.jpg)
 
-![Cactus](./charles-deluvio-695733-unsplash.jpg)
+![Cactus](./much-ado-poster.png)
+
+![Cactus](./interview-poster.jpg)
