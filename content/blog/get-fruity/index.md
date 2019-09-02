@@ -1,14 +1,16 @@
 ---
-title: Get fruity
+title: Overlays
 date: "2019-05-02"
-thumbnail: ./mike-dorner-173502-unsplash.jpg
-description: A deep investigation into the pastel properties of colourful fruit and their psychological effects on hamsters
+thumbnail: ./gardensoverlay.jpg
+description: This project mixes art and reality to see how shapes and patterns fit into scenes of our daily life.
 ---
 
-![Fruits](./mike-dorner-173503-unsplash.jpg)
+This project is one I took on to improve my Adobe Photoshop skills, while making use of my passion for photography. By experimenting with the overlay effect, this project mixes art and reality to see how shapes and patterns fit into scenes of our daily life. Most of the photographs were taken at locations near my university and my house, places I encounter on a daily basis.
 
-<div class="kg-card kg-image-card kg-width-wide">
+I photographed with a focus on capturing geometric shapes and block colours that would compliment my drawing style when overlaid. The artwork is hand-drawn with black ink pens then post-processed digitally before being incorporated into the photographs.
 
-![Fruits](./mike-dorner-173504-unsplash.jpg)
+![Green](./busshelteroverlay.jpg)
 
-</div>
+![Green](./phoneboxoverlay.jpg)
+
+![Green](./planeoverlay.jpg)
