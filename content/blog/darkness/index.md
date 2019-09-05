@@ -1,7 +1,7 @@
 ---
 title: InTune
 date: "2019-05-08"
-thumbnail: ./bbbb.jpg
+thumbnail: ./cover.png
 description: Developed in response to the shortcomings of existing music notation software when composing in groups. InTune streamlines collaborative composition by providing a single platform that combines communication with notation editing capabilties.
 ---
 
