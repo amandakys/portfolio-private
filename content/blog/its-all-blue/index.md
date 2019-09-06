@@ -15,7 +15,7 @@ I was brought on as designer after the idea won a university app pitch competiti
     <a href="#problem" style="white-space: nowrap">The Problem</a><br>
     <a href="#personas" style="white-space: nowrap">The Personas</a><br>
     <a href="#flow" style="white-space: nowrap">Designing User Flow</a><br>
-    <a href="#pitch" style="white-space: nowrap">Pitch Brief</a><br>
+    <!-- <a href="#pitch" style="white-space: nowrap">Pitch Brief</a><br> -->
 </p>
 
 <a name="aim" style="display: block; position: relative; top: -6vw"></a>
@@ -122,6 +122,7 @@ The colour coding and ‘mirrored’ design was the result of these investigatio
 
 <a name="pitch" style="display: block; position: relative; top: -6vw"></a>
 
+<!--
 ## PITCH BRIEF
 
-![finalbrief.jpg](./finalbrief.jpg)
+![finalbrief.jpg](./finalbrief.jpg) -->
