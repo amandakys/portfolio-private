@@ -1,13 +1,24 @@
 ---
 title: Promo
 date: "2019-05-06"
-thumbnail: ./cody-davis-253928-unsplash.jpg
+thumbnail: ./promocover.png
 description: Developed in response to the growing marketing potential of personal branding on social media platforms, Promo manages the interactions between social influencers and product marketing teams.
 ---
 
 ## MY ROLE
 
 I was brought on as designer after the idea won a university app pitch competition. The team consisted of the founder and two developers. I was responsible for the visual and user interface design of the app as it moved from concept to first functional build and into later iterations. My responsibilities included, structural and experience design, wire framing and generating high fidelity mock ups.
+
+<h4 align="center">CONTENTS</h4>
+<p align="center">
+    <a href="#aim" style="white-space: nowrap">The Aim</a><br>
+    <a href="#problem" style="white-space: nowrap">The Problem</a><br>
+    <a href="#personas" style="white-space: nowrap">The Personas</a><br>
+    <a href="#flow" style="white-space: nowrap">Designing User Flow</a><br>
+    <a href="#pitch" style="white-space: nowrap">Pitch Brief</a><br>
+</p>
+
+<a name="aim" style="display: block; position: relative; top: -6vw"></a>
 
 ## THE AIM
 
@@ -17,6 +28,8 @@ To provide a simple, streamlined experience for:
     <li>Social media influencers looking to monetise through brand affiliations</li>
     <li>Products and brands looking to use social media exposure for marketing</li>
 </ol>
+
+<a name="problem" style="display: block; position: relative; top: -6vw"></a>
 
 ## THE PROBLEM
 
@@ -39,6 +52,8 @@ To provide a simple, streamlined experience for:
     </li>
 </ol>
 
+<a name="personas" style="display: block; position: relative; top: -6vw"></a>
+
 ## THE PERSONAS
 
 <center><h3>Ashley</h3></center>
@@ -48,6 +63,8 @@ Ashley is a fashion blogger with 10,000 followers. She’s been contacted by com
 <center><h3>Terry</h3></center>
 
 Terry is the marketing director at a boutique clothing brand looking to gain exposure and promote its products through social media. He often browses through Instagram looking for established profiles whose style and visual aesthetic would suit their brand. He wants to contact influencers he likes, set up transactions and track their success simply and efficiently. He would be open to allowing new talent to contact him as long as he isn’t overwhelmed.
+
+<a name="flow" style="display: block; position: relative; top: -6vw"></a>
 
 ## DESIGNING USER FLOW
 
@@ -67,7 +84,9 @@ I soon realised that the fundamental structure of the “Influencer” and “Pr
 
 ![promoter-flow.png](./promoter-flow.png)
 
-## KEY DECISION DECISIONS
+<a name="design" style="display: block; position: relative; top: -6vw"></a>
+
+## KEY DESIGN DECISIONS
 
 #### SPLIT APP
 
@@ -100,3 +119,9 @@ The colour coding and ‘mirrored’ design was the result of these investigatio
 </div>
 
 <p align="center" style="font-size: 0.8em; position: relative; top: -4vw;">Animated slideshow of the screens designed for Version 1. Exported from Adobe XD.</p>
+
+<a name="pitch" style="display: block; position: relative; top: -6vw"></a>
+
+## PITCH BRIEF
+
+![finalbrief.jpg](./finalbrief.jpg)

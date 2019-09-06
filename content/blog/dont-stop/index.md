@@ -1,15 +1,14 @@
 ---
 title: Emblem Builder
 date: "2019-05-07"
-thumbnail: ./ian-dooley-298769-unsplash.jpg
-description: An emblem builder within a mobile for designing a custom emblem from composite shapes. Designed for touch interfaces.
+thumbnail: ./emblemcover.png
 ---
 
 ## MY ROLE
 
 _Disclaimer: Details have been omitted to comply with my non-disclosure agreement._
 
-This was a project I worked on as a **UX/UI Designer** at a games studio that was maintaining a live free to play mobile title. I was given a brief for an emblem builder that would allow players to create a custom emblem for their team. I was responsible for designing the structure of the emblem creation experience as well as prototyping the interface. I researched existing solutions, designed screens and put together an interactive prototype in Adobe XD and Marvel (shown below). I created high fidelity mock ups of the builder in the visual style of the game. (Unfortunately, I can not share these visuals). I also investigated implementation strategies in the Unity game engine using NGUI.
+This was a project I worked on as a **UI Artist** at a games studio that was maintaining a live free to play mobile title. I was given a brief for an emblem builder that would allow players to create a custom emblem for their team. I was responsible for designing the structure of the emblem creation experience as well as prototyping the interface. I researched existing solutions, designed screens and put together an interactive prototype in Adobe XD and Marvel (shown below). I created high fidelity mock ups of the builder in the visual style of the game. (Unfortunately, I can not share these visuals). I also investigated implementation strategies in the Unity game engine using NGUI.
 
 <h4 align="center">CONTENTS</h4>
 <p align="center">
