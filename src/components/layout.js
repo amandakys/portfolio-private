@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
-
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -55,7 +53,7 @@ const Layout = props => {
                 Github
               </a>
               <a
-                href="https://uk.linkedin.com/in/amanda-koh-14ab42103"
+                href="https://uk.linkedin.com/in/amandakys"
                 title="LinkedIn"
                 target="_blank"
                 rel="noopener noreferrer"
