@@ -1,5 +1,6 @@
 import * as React from "react"
 import Image from "gatsby-image"
+import { Motion, spring } from "react-motion"
 import "../utils/css/components/slider.css"
 import { StaticQuery } from "gatsby"
 
@@ -11,6 +12,7 @@ class Slider extends React.Component {
     }
     this.ref = React.createRef()
     this.onMoveContent = this.onMoveContent.bind(this)
+    this.centerContent = this.centerContent.bind(this)
   }
 
   componentDidMount() {
@@ -29,6 +31,10 @@ class Slider extends React.Component {
     // console.log(rect);
   }
 
+  centerContent() {
+    this.setState({ progress: 0.5 })
+  }
+
   render() {
     return (
       <div id="container" className="container" onMouseEnter={this.setupPage}>
@@ -42,15 +48,25 @@ class Slider extends React.Component {
           ref={this.ref}
           onTouchMove={this.onMoveContent}
           onMouseMove={this.onMoveContent}
+          onMouseLeave={this.centerContent}
         />
-
-        <div
-          className="left-wrapper"
-          ref={this.ref}
-          style={{ width: `${100 * this.state.progress}%` }}
-          onTouchMove={this.onMoveContent}
-          onMouseMove={this.onMoveContent}
-        />
+        <Motion
+          defaultStyle={{ t: 0.5 }}
+          style={{
+            t: spring(this.state.progress, { stiffness: 60, damping: 30 }),
+          }}
+        >
+          {({ t }) => (
+            <div
+              className="left-wrapper"
+              ref={this.ref}
+              style={{ width: `${100 * t}%` }}
+              onTouchMove={this.onMoveContent}
+              onMouseMove={this.onMoveContent}
+              onMouseLeave={this.centerContent}
+            />
+          )}
+        </Motion>
         <div className="content"></div>
       </div>
     )
