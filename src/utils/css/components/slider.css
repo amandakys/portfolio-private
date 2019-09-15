@@ -1,0 +1,23 @@
+.left-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../../../../content/assets/code-andi-2.png");
+  background-size: cover;
+}
+
+.right-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../../../../content/assets/art-andi-2.png");
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+}

@@ -63,7 +63,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 13vw 0;
-  max-width: 70%;
+  /* max-width: 70%; */
   margin: auto;
   text-align: center;
 }
@@ -158,6 +158,18 @@ body {
   white-space: nowrap;
 }
 
+.site-head-logo-container {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  max-height: 100px;
+  padding: 3vw;
+  margin: -3vw;
+  pointer-events: none;
+  z-index: 1;
+}
+
 .nav {
   display: flex;
   margin: 0 0 0 -12px;
@@ -204,6 +216,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  pointer-events: all;
 }
 
 .site-head-logo:hover {
@@ -282,7 +295,18 @@ body {
   .site-head-container {
     flex-direction: column;
     justify-content: flex-start;
-    z-index: -1;
+    /* z-index: -1; */
+    height: 10vw;
+    min-height: 65px;
+    max-height: none;
+    top: 3vw;
+    left: 3vw;
+    transition: all 0.4s ease-out;
+    overflow: hidden;
+  }
+  .site-head-logo-container {
+    flex-direction: column;
+    justify-content: flex-start;
     height: 10vw;
     min-height: 65px;
     top: 3vw;
@@ -320,7 +344,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 3vw 0 0 0;
+    margin: 12vw 0 0 0;
   }
   .site-head-left {
     order: 2;
@@ -435,7 +459,7 @@ body {
   bottom: 0;
   left: 0;
   color: #fff;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   opacity: 1;
   transition: opacity 0.5s cubic-bezier(0.33, 0, 0.2, 1);
 }

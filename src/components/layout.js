@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-
-
 const Layout = props => {
   const { title, children } = props
   const [toggleNav, setToggleNav] = React.useState(false)
@@ -10,6 +8,45 @@ const Layout = props => {
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
         <div className="site-head-container">
+          <nav id="swup" className="site-head-left">
+            <ul className="nav" role="menu">
+              <li className="nav-home nav-current" role="menuitem">
+                <Link to={`/`}>Home</Link>
+              </li>
+              <li className="nav-about" role="menuitem">
+                <Link to={`/about`}>About</Link>
+              </li>
+            </ul>
+          </nav>
+
+          <div className="site-head-right">
+            <div className="social-links">
+              <a
+                href="https://github.com/amandakys"
+                title="Github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://uk.linkedin.com/in/amandakys"
+                title="LinkedIn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://instagram.com/ataraxdesign"
+                title="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Instagram
+              </a>
+            </div>
+          </div>
           <a
             className="nav-burger"
             href={`#`}
@@ -26,51 +63,12 @@ const Layout = props => {
               </div>
             </div>
           </a>
-          <nav id="swup" className="site-head-left">
-            <ul className="nav" role="menu">
-              <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
-              </li>
-              <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
-              </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
-            </ul>
-          </nav>
+        </div>
+        <div className="site-head-logo-container">
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
               {title}
             </Link>
-          </div>
-          <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://github.com/amandakys"
-                title="Github"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://uk.linkedin.com/in/amanda-koh-14ab42103"
-                title="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://instagram.com/ataraxdesign"
-                title="Instagram"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Instagram
-              </a>
-            </div>
           </div>
         </div>
       </header>
