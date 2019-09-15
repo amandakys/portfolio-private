@@ -27,8 +27,6 @@ class Slider extends React.Component {
     const offsetX = x - rect.x
     const progress = (offsetX / this.state.width) % 1
     this.setState({ progress: progress })
-    // console.log(x);
-    // console.log(rect);
   }
 
   centerContent() {
@@ -46,7 +44,7 @@ class Slider extends React.Component {
         <div
           className="right-wrapper"
           ref={this.ref}
-          onTouchMove={this.onMoveContent}
+          onTouchEnd={this.onMoveContent}
           onMouseMove={this.onMoveContent}
           onMouseLeave={this.centerContent}
         />
@@ -61,7 +59,7 @@ class Slider extends React.Component {
               className="left-wrapper"
               ref={this.ref}
               style={{ width: `${100 * t}%` }}
-              onTouchMove={this.onMoveContent}
+              onTouchEnd={this.onMoveContent}
               onMouseMove={this.onMoveContent}
               onMouseLeave={this.centerContent}
             />
